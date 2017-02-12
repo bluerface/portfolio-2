@@ -6,8 +6,8 @@ const MainPage = (props) => {
   return (
     <div>
       {
-        data.map((section) => (
-          <Section section={section} />
+        data.map((section, i) => (
+          <Section key={i} section={section} />
         ))
       }
     </div>
