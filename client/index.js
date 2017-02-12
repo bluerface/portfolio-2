@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 
-const App = () => (<h1> Hello bob </h1>);
+import App from './components/App';
+import MainPage from './components/MainPage';
+import DetailPage from './components/DetailPage';
 
 ReactDOM.render(
-  <App />
+  <Router history={browserHistory}>
+    <Route path='/' component={App}>
+      <IndexRoute component={MainPage} />
+      <Route path='/:project_slug' component={DetailPage} />
+    </Route>
+  </Router>
   ,
   document.getElementById('app')
 );
