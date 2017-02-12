@@ -1,10 +1,11 @@
 const validate = require('webpack-validator');
+const path = require('path');
 
 const config = {
-  entry: __dirname + '/client/index.js',
+  entry: path.join(__dirname, '/client/index.js'),
   output: {
     filename: 'bundle.js',
-    path: __dirname + '/public'
+    path: path.join(__dirname, '/public')
   },
   module: {
     loaders: [
