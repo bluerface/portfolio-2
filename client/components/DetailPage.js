@@ -1,10 +1,12 @@
 import React from 'react';
+import '../styles/DetailPage.scss';
 
 const DetailPage = (props) => {
   return (
-    <div>
-      I am a Detail page for {props.params.project_slug}
-    </div>
+    <article class='details'>
+      <img src='#' />
+      <div dangerouslySetInnerHTML={{__html: '<h1>I am some markdown</h1>'}} />
+    </article>
   );
 };
 
