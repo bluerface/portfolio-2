@@ -14,7 +14,7 @@ export const data = [
 
 A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks. Watch out for the traps!
 
-## Technologies Used:
+### Technologies Used:
 
 * Html5
 * Css3
@@ -22,10 +22,11 @@ A fun little game I made in JavaScript, where you must survive in a dessert full
 * Git
 * Tiled (map creation software)
 
-*Repo*;
+
+#### Repo;
 https://github.com/bluerface/Silly-Javascript-Game
 
-*Demo*;
+#### Demo;
 (none)
         `
       },

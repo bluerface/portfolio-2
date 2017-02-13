@@ -1,13 +1,14 @@
 import React from 'react';
+import marked from 'marked';
 import {bySlug} from '../data';
 import '../styles/DetailPage.scss';
 
 const DetailPage = (props) => {
-  console.log(bySlug);
+  var project = bySlug[props.params.project_slug];
   return (
     <article className='details'>
-      <img src='#' />
-      <div dangerouslySetInnerHTML={{__html: '<h1>I am some markdown</h1>'}} />
+      <img src={project.imageBanner} />
+      <div dangerouslySetInnerHTML={{__html: marked(project.longDescription, {sanitise: true})}} />
     </article>
   );
 };
