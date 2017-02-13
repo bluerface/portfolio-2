@@ -1,4 +1,4 @@
-module.exports = [
+export const data = [
   {
     title: 'Northcoders',
     description: 'Projects completed while working on the Northcoders course',
@@ -7,7 +7,7 @@ module.exports = [
         imageSmall: '#',
         imageBanner: '#',
         title: 'Snaks',
-        slug: 'snaks',
+        slug: 'snaks1',
         description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
         longDescription: `
 # Snaks
@@ -33,7 +33,7 @@ https://github.com/bluerface/Silly-Javascript-Game
         imageSmall: '#',
         imageBanner: '#',
         title: 'Snaks',
-        slug: 'snaks',
+        slug: 'snaks2',
         description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
         longDescription: 'I am some markdown lol'
       },
@@ -41,53 +41,7 @@ https://github.com/bluerface/Silly-Javascript-Game
         imageSmall: '#',
         imageBanner: '#',
         title: 'Snaks',
-        slug: 'snaks',
-        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
-        longDescription: 'I am some markdown lol'
-      },
-      {
-        imageSmall: '#',
-        imageBanner: '#',
-        title: 'Snaks',
-        slug: 'snaks',
-        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
-        longDescription: 'I am some markdown lol'
-      },
-      {
-        imageSmall: '#',
-        imageBanner: '#',
-        title: 'Snaks',
-        slug: 'snaks',
-        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
-        longDescription: 'I am some markdown lol'
-      }
-    ]
-  },
-  {
-    title: 'Northcoders',
-    description: 'Projects completed while working on the Northcoders course',
-    projects: [
-      {
-        imageSmall: '#',
-        imageBanner: '#',
-        title: 'Snaks',
-        slug: 'snaks',
-        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
-        longDescription: 'I am some markdown lol'
-      },
-      {
-        imageSmall: '#',
-        imageBanner: '#',
-        title: 'Snaks',
-        slug: 'snaks',
-        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
-        longDescription: 'I am some markdown lol'
-      },
-      {
-        imageSmall: '#',
-        imageBanner: '#',
-        title: 'Snaks',
-        slug: 'snaks',
+        slug: 'snaks2',
         description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
         longDescription: 'I am some markdown lol'
       },
@@ -134,6 +88,52 @@ https://github.com/bluerface/Silly-Javascript-Game
         imageBanner: '#',
         title: 'Snaks',
         slug: 'snaks',
+        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
+        longDescription: 'I am some markdown lol'
+      },
+      {
+        imageSmall: '#',
+        imageBanner: '#',
+        title: 'Snaks',
+        slug: 'snaks3',
+        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
+        longDescription: 'I am some markdown lol'
+      },
+      {
+        imageSmall: '#',
+        imageBanner: '#',
+        title: 'Snaks',
+        slug: 'snaks',
+        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
+        longDescription: 'I am some markdown lol'
+      }
+    ]
+  },
+  {
+    title: 'Northcoders',
+    description: 'Projects completed while working on the Northcoders course',
+    projects: [
+      {
+        imageSmall: '#',
+        imageBanner: '#',
+        title: 'Snaks',
+        slug: 'snaks',
+        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
+        longDescription: 'I am some markdown lol'
+      },
+      {
+        imageSmall: '#',
+        imageBanner: '#',
+        title: 'Snaks',
+        slug: 'snaks',
+        description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
+        longDescription: 'I am some markdown lol'
+      },
+      {
+        imageSmall: '#',
+        imageBanner: '#',
+        title: 'Snaks',
+        slug: 'snaks4',
         description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
         longDescription: 'I am some markdown lol'
       },
@@ -156,3 +156,6 @@ https://github.com/bluerface/Silly-Javascript-Game
     ]
   }
 ];
+
+import flatten from './flatten';
+export const bySlug = flatten(data);
