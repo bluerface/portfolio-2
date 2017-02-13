@@ -8,6 +8,7 @@ const DetailPage = (props) => {
   return (
     <article className='details'>
       <img src={project.imageBanner} />
+      <h1>{project.title}</h1>
       <div dangerouslySetInnerHTML={{__html: marked(project.longDescription, {sanitise: true})}} />
     </article>
   );

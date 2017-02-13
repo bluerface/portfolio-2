@@ -10,8 +10,6 @@ export const data = [
         slug: 'snaks1',
         description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
         longDescription: `
-# Snaks
-
 A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks. Watch out for the traps!
 
 ### Technologies Used:
