@@ -3,7 +3,7 @@ import {Link} from 'react-router';
 import '../styles/Header.scss';
 
 const Header = () => (
-  <Link to='/' className='header-link'>
+  <Link to='/' className='block-link'>
     <header>
       <h1>{'Zoe\'s Portfolio'}</h1>
       <p>Welcome to Zoes portfolio.</p>

@@ -12,6 +12,16 @@ body {
   }
 }
 
+/* ----- OO styles ---- */
+
+.block-link {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 /* ----- Fonts ------ */
 
 body {
@@ -26,4 +36,11 @@ h2 {
   font-size: 1.4em;
   margin-top: 1.4em;
   margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
