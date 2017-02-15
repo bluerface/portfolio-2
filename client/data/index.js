@@ -244,22 +244,22 @@ https://bluerface.github.io/precourse-week-3/index.html
 
 // ------------------------- Yet undetermined section -------------------------
 
-  {
-    title: 'Other Things',
-    description: 'Projects I projected while I projected',
-    projects: [
-      {
-        imageSmall: '#',
-        imageBanner: '#',
-        title: 'Placeholder',
-        slug: 'placeholder',
-        description: 'Placeholder',
-        longDescription: `
-Placeholder
-        `
-      }
-    ]
-  }
+//   {
+//     title: 'Other Things',
+//     description: 'Projects I projected while I projected',
+//     projects: [
+//       {
+//         imageSmall: '#',
+//         imageBanner: '#',
+//         title: 'Placeholder',
+//         slug: 'placeholder',
+//         description: 'Placeholder',
+//         longDescription: `
+// Placeholder
+//         `
+//       }
+//     ]
+//   }
 ];
 
 import flatten from './flatten';
