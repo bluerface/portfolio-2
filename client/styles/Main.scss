@@ -6,6 +6,21 @@ body {
   padding: 10px 100px;
 }
 
+@media (max-width: 500px) {
+  body {
+    padding: 10px 10%;
+  }
+}
+
+/* ----- OO styles ---- */
+
+.block-link {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 /* ----- Fonts ------ */
 
@@ -21,4 +36,11 @@ h2 {
   font-size: 1.4em;
   margin-top: 1.4em;
   margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }

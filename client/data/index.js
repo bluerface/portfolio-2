@@ -15,6 +15,12 @@ export const data = [
         longDescription: `
 A student portal SPA, developed as our final Team project at Northcoders.
 
+Demo;
+https://northcoders-nutshell.herokuapp.com/
+
+Repo;
+https://github.com/bluerface/public-nc-nutshell-front
+
 ## The concept
 
 Our app is a student portal designed for use by future northcoder students and tutors.
@@ -35,14 +41,6 @@ Other features may involve slack integration, task tracking and communication to
 * React-big-calendar
 * Markdown parsing
 * mocha / chai
-
-## Details
-Repo;
-https://github.com/bluerface/public-nc-nutshell-front
-
-Demo;
-https://northcoders-nutshell.herokuapp.com/
-
     `
       },
       {
@@ -54,13 +52,13 @@ https://northcoders-nutshell.herokuapp.com/
         longDescription: `
 A Reddit style news site demonstrating a REST API, React-redux and authentication
 
-Repos;
-API: https://github.com/bluerface/public-nc-news-front
-Front: https://github.com/bluerface/public-nc-news-api
-
 Demos;
-API: https://zl-northcoders-news-api.herokuapp.com/api
 Front: https://zl-northcoders-news.herokuapp.com
+API: https://zl-northcoders-news-api.herokuapp.com/api
+
+Repos;
+Front: https://github.com/bluerface/public-nc-news-api
+API: https://github.com/bluerface/public-nc-news-front
 
 ## Technologies Used
 
@@ -87,11 +85,11 @@ Front: https://zl-northcoders-news.herokuapp.com
         longDescription: `
 A Trello clone demonstrating Css and vanilla React
 
-Repo;
-https://github.com/bluerface/public-nc-trello-clone
-
 Demo;
 https://trello-clone-zlawrence.herokuapp.com/
+
+Repo;
+https://github.com/bluerface/public-nc-trello-clone
 
 ## Technologies Used
 
@@ -113,11 +111,11 @@ Northcoders optional css exercise, mocking up the pieminister website.
 The Original site;
 http://www.pieminister.co.uk/
 
-Repo;
-https://github.com/bluerface/pieminister-css-exercise
-
 Demo;
 https://bluerface.github.io/pieminister-css-exercise/
+
+Repo;
+https://github.com/bluerface/pieminister-css-exercise
 
 ## Technologies Used
 * Html
@@ -145,9 +143,6 @@ This site you are on now!
 Repo;
 https://github.com/bluerface/portfolio-2
 
-Demo;
-You are already here
-
 ## Technologies Used
 * React
 * React-router
@@ -167,17 +162,16 @@ A fun little game I made in JavaScript, where you must survive in a dessert full
 
 ## Technologies Used:
 
-* Html5
-* Css3
+* Html
+* Css
 * JavaScript
-* Git
 * Tiled (map creation software)
-
-Repo;
-https://github.com/bluerface/Silly-Javascript-Game
 
 Demo;
 http://bluerface.github.io/Silly-Javascript-Game/game.html
+
+Repo;
+https://github.com/bluerface/Silly-Javascript-Game
         `
       },
       {
@@ -189,11 +183,11 @@ http://bluerface.github.io/Silly-Javascript-Game/game.html
         longDescription: `
 A website I am developing in coordination with the 'Pigs in the Woods' pig rescue center near Huddersfield.
 
-Repo;
-https://github.com/bluerface/PigsInTheWoods
-
 Demo;
 https://bluerface.github.io/PigsInTheWoods/
+
+Repo;
+https://github.com/bluerface/PigsInTheWoods
 
 ## Technologies Used
 * Css
@@ -211,11 +205,11 @@ https://bluerface.github.io/PigsInTheWoods/
         longDescription: `
 Simple quiz using jQuery, completed as an excercise for the Northcoders Precourse
 
-Repo;
-https://github.com/bluerface/precourse-week-5
-
 Demo;
 https://bluerface.github.io/precourse-week-5/
+
+Repo;
+https://github.com/bluerface/precourse-week-5
 `
       },
       {
@@ -225,13 +219,13 @@ https://bluerface.github.io/precourse-week-5/
         slug: 'responsive-layout',
         description: 'A page demonstrating a responsive css layout and lightbox',
         longDescription: `
-A page demonstrating a responsive css layout and lightbox
-
-Repo;
-https://github.com/bluerface/precourse-week-3
+A page demonstrating a responsive css layout and lightbox, completed as an exercise for the Northcoders Precourse.
 
 Demo;
 https://bluerface.github.io/precourse-week-3/index.html
+
+Repo;
+https://github.com/bluerface/precourse-week-3
 
 ## Technologies Used;
 * Html
@@ -244,22 +238,22 @@ https://bluerface.github.io/precourse-week-3/index.html
 
 // ------------------------- Yet undetermined section -------------------------
 
-  {
-    title: 'Other Things',
-    description: 'Projects I projected while I projected',
-    projects: [
-      {
-        imageSmall: '#',
-        imageBanner: '#',
-        title: 'Placeholder',
-        slug: 'placeholder',
-        description: 'Placeholder',
-        longDescription: `
-Placeholder
-        `
-      }
-    ]
-  }
+//   {
+//     title: 'Other Things',
+//     description: 'Projects I projected while I projected',
+//     projects: [
+//       {
+//         imageSmall: '#',
+//         imageBanner: '#',
+//         title: 'Placeholder',
+//         slug: 'placeholder',
+//         description: 'Placeholder',
+//         longDescription: `
+// Placeholder
+//         `
+//       }
+//     ]
+//   }
 ];
 
 import flatten from './flatten';
