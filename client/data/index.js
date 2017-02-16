@@ -132,7 +132,7 @@ https://github.com/bluerface/pieminister-css-exercise
     description: 'Projects I worked on before/after attending Northcoders',
     projects: [
       {
-        imageSmall: '#',
+        imageSmall: 'portfolio-small2.png',
         imageBanner: '#',
         title: 'Portfolio',
         slug: 'portfolio',
@@ -152,7 +152,7 @@ https://github.com/bluerface/portfolio-2
         `
       },
       {
-        imageSmall: '#',
+        imageSmall: 'snaks-small.png',
         imageBanner: '#',
         title: 'Snaks',
         slug: 'snaks1',
@@ -175,7 +175,7 @@ https://github.com/bluerface/Silly-Javascript-Game
         `
       },
       {
-        imageSmall: '#',
+        imageSmall: 'pigs-small.png',
         imageBanner: '#',
         title: 'Pigs in the woods',
         slug: 'pigs-in-the-woods',
@@ -197,7 +197,7 @@ https://github.com/bluerface/PigsInTheWoods
         `
       },
       {
-        imageSmall: '#',
+        imageSmall: 'quiz-small.png',
         imageBanner: '#',
         title: 'jQuery Quiz',
         slug: 'jquery-quiz',
@@ -213,7 +213,7 @@ https://github.com/bluerface/precourse-week-5
 `
       },
       {
-        imageSmall: '#',
+        imageSmall: 'responsive-small2.png',
         imageBanner: '#',
         title: 'Responsive Layout',
         slug: 'responsive-layout',
