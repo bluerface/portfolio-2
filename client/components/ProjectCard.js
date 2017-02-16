@@ -4,7 +4,7 @@ import '../styles/ProjectCard.scss';
 
 const ProjectCard = ({project}) => (
   <div className='card'>
-    <img src={project.imageSmall} />
+    <div className='img' style={{backgroundImage: `url(images/${project.imageSmall})`}}><img src={`images/${project.imageSmall}`} /></div>
     <Link to={project.slug}>
       <h1> {project.title} </h1>
     </Link>
