@@ -5,3 +5,11 @@ header {
 header h1, header p {
   text-align: center;
 }
+
+.blurb {
+  display: block;
+  max-width: 800px;
+  font-style: italic;
+  color: dimgrey;
+  margin: auto;
+}
