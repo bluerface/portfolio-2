@@ -7,7 +7,7 @@ export const data = [
     description: 'Projects completed while working on the Northcoders course',
     projects: [
       {
-        imageSmall: '#',
+        imageSmall: 'nutshell-small.png',
         imageBanner: '#',
         title: 'Northcoders Nutshell',
         slug: 'nc-nutshell',
@@ -44,7 +44,7 @@ Other features may involve slack integration, task tracking and communication to
     `
       },
       {
-        imageSmall: '#',
+        imageSmall: 'news-small.png',
         imageBanner: '#',
         title: 'Northcoder News',
         slug: 'nc-news',
@@ -77,7 +77,7 @@ API: https://github.com/bluerface/public-nc-news-front
 * Mocha / chai`
       },
       {
-        imageSmall: '#',
+        imageSmall: 'trello-small.png',
         imageBanner: '#',
         title: 'Trello Clone',
         slug: 'trello-clone',
@@ -99,7 +99,7 @@ https://github.com/bluerface/public-nc-trello-clone
 * Css3`
       },
       {
-        imageSmall: '#',
+        imageSmall: 'pie-small.png',
         imageBanner: '#',
         title: 'Pieminister Clone',
         slug: 'nc-pieminister',
