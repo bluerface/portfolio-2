@@ -8,7 +8,8 @@ export const data = [
     projects: [
       {
         imageSmall: 'nutshell-small.png',
-        imageBanner: '#',
+        imageBanner: 'nutshell-banner.png',
+        imageBannerPos: '28% center',
         title: 'Northcoders Nutshell',
         slug: 'nc-nutshell',
         description: 'A student portal app developed as our final Team project at Northcoders.',
@@ -45,7 +46,8 @@ Other features may involve slack integration, task tracking and communication to
       },
       {
         imageSmall: 'news-small.png',
-        imageBanner: '#',
+        imageBanner: 'news-banner.png',
+        imageBannerPos: '28% center',
         title: 'Northcoder News',
         slug: 'nc-news',
         description: 'A Reddit style news site demonstrating a REST API, React-redux and authentication',
@@ -78,7 +80,8 @@ API: https://github.com/bluerface/public-nc-news-front
       },
       {
         imageSmall: 'trello-small.png',
-        imageBanner: '#',
+        imageBanner: 'trello-banner2.png',
+        imageBannerPos: 'left top',
         title: 'Trello Clone',
         slug: 'trello-clone',
         description: 'A Trello clone demonstrating Css and vanilla React',
@@ -100,7 +103,7 @@ https://github.com/bluerface/public-nc-trello-clone
       },
       {
         imageSmall: 'pie-small.png',
-        imageBanner: '#',
+        imageBanner: 'pie-banner.png',
         title: 'Pieminister Clone',
         slug: 'nc-pieminister',
         description: 'A Css clone of the pieminister website',
