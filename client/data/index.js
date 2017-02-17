@@ -7,8 +7,9 @@ export const data = [
     description: 'Projects completed while working on the Northcoders course',
     projects: [
       {
-        imageSmall: '#',
-        imageBanner: '#',
+        imageSmall: 'nutshell-small.png',
+        imageBanner: 'nutshell-banner.png',
+        imageBannerPos: '28% center',
         title: 'Northcoders Nutshell',
         slug: 'nc-nutshell',
         description: 'A student portal app developed as our final Team project at Northcoders.',
@@ -44,8 +45,9 @@ Other features may involve slack integration, task tracking and communication to
     `
       },
       {
-        imageSmall: '#',
-        imageBanner: '#',
+        imageSmall: 'news-small.png',
+        imageBanner: 'news-banner.png',
+        imageBannerPos: '28% center',
         title: 'Northcoder News',
         slug: 'nc-news',
         description: 'A Reddit style news site demonstrating a REST API, React-redux and authentication',
@@ -77,8 +79,9 @@ API: https://github.com/bluerface/public-nc-news-front
 * Mocha / chai`
       },
       {
-        imageSmall: '#',
-        imageBanner: '#',
+        imageSmall: 'trello-small.png',
+        imageBanner: 'trello-banner2.png',
+        imageBannerPos: 'left top',
         title: 'Trello Clone',
         slug: 'trello-clone',
         description: 'A Trello clone demonstrating Css and vanilla React',
@@ -99,8 +102,8 @@ https://github.com/bluerface/public-nc-trello-clone
 * Css3`
       },
       {
-        imageSmall: '#',
-        imageBanner: '#',
+        imageSmall: 'pie-small.png',
+        imageBanner: 'pie-banner.png',
         title: 'Pieminister Clone',
         slug: 'nc-pieminister',
         description: 'A Css clone of the pieminister website',
@@ -132,8 +135,9 @@ https://github.com/bluerface/pieminister-css-exercise
     description: 'Projects I worked on before/after attending Northcoders',
     projects: [
       {
-        imageSmall: '#',
-        imageBanner: '#',
+        imageSmall: 'portfolio-small2.png',
+        imageBanner: 'portfolio-banner.png',
+        imageBannerPos: 'center',
         title: 'Portfolio',
         slug: 'portfolio',
         description: 'This site you are on now',
@@ -152,8 +156,9 @@ https://github.com/bluerface/portfolio-2
         `
       },
       {
-        imageSmall: '#',
-        imageBanner: '#',
+        imageSmall: 'snaks-small.png',
+        imageBanner: 'snaks-banner.png',
+        imageBannerPos: '20% 60%',
         title: 'Snaks',
         slug: 'snaks1',
         description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
@@ -175,8 +180,9 @@ https://github.com/bluerface/Silly-Javascript-Game
         `
       },
       {
-        imageSmall: '#',
-        imageBanner: '#',
+        imageSmall: 'pigs-small.png',
+        imageBanner: 'pigs-banner.png',
+        imageBannerPos: 'center center',
         title: 'Pigs in the woods',
         slug: 'pigs-in-the-woods',
         description: 'A site I am working on for the \'Pigs in the woods\' pig rescue center in Huddersfield',
@@ -197,8 +203,9 @@ https://github.com/bluerface/PigsInTheWoods
         `
       },
       {
-        imageSmall: '#',
-        imageBanner: '#',
+        imageSmall: 'quiz-small.png',
+        imageBanner: 'quiz-banner.png',
+        imageBannerPos: '45%',
         title: 'jQuery Quiz',
         slug: 'jquery-quiz',
         description: 'Simple quiz using jQuery, completed as an excercise for the Northcoders Precourse',
@@ -213,8 +220,9 @@ https://github.com/bluerface/precourse-week-5
 `
       },
       {
-        imageSmall: '#',
-        imageBanner: '#',
+        imageSmall: 'responsive-small2.png',
+        imageBanner: 'responsive-banner3.png',
+        imageBannerPos: '7% center',
         title: 'Responsive Layout',
         slug: 'responsive-layout',
         description: 'A page demonstrating a responsive css layout and lightbox',
