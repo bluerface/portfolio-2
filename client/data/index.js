@@ -136,7 +136,8 @@ https://github.com/bluerface/pieminister-css-exercise
     projects: [
       {
         imageSmall: 'portfolio-small2.png',
-        imageBanner: '#',
+        imageBanner: 'portfolio-banner.png',
+        imageBannerPos: 'center',
         title: 'Portfolio',
         slug: 'portfolio',
         description: 'This site you are on now',
@@ -156,7 +157,8 @@ https://github.com/bluerface/portfolio-2
       },
       {
         imageSmall: 'snaks-small.png',
-        imageBanner: '#',
+        imageBanner: 'snaks-banner.png',
+        imageBannerPos: '20% 60%',
         title: 'Snaks',
         slug: 'snaks1',
         description: 'A fun little game I made in JavaScript, where you must survive in a dessert full of Snaks.',
@@ -179,7 +181,8 @@ https://github.com/bluerface/Silly-Javascript-Game
       },
       {
         imageSmall: 'pigs-small.png',
-        imageBanner: '#',
+        imageBanner: 'pigs-banner.png',
+        imageBannerPos: 'center center',
         title: 'Pigs in the woods',
         slug: 'pigs-in-the-woods',
         description: 'A site I am working on for the \'Pigs in the woods\' pig rescue center in Huddersfield',
@@ -201,7 +204,8 @@ https://github.com/bluerface/PigsInTheWoods
       },
       {
         imageSmall: 'quiz-small.png',
-        imageBanner: '#',
+        imageBanner: 'quiz-banner.png',
+        imageBannerPos: '45%',
         title: 'jQuery Quiz',
         slug: 'jquery-quiz',
         description: 'Simple quiz using jQuery, completed as an excercise for the Northcoders Precourse',
@@ -217,7 +221,8 @@ https://github.com/bluerface/precourse-week-5
       },
       {
         imageSmall: 'responsive-small2.png',
-        imageBanner: '#',
+        imageBanner: 'responsive-banner3.png',
+        imageBannerPos: '7% center',
         title: 'Responsive Layout',
         slug: 'responsive-layout',
         description: 'A page demonstrating a responsive css layout and lightbox',
